@@ -989,10 +989,13 @@ html, body { overflow-x: clip; }
   .vk-nav__wordmark { text-align: left; }
   .vk-nav__toggle { display: flex; }
 
-  .vk-hero { grid-template-columns: minmax(0, 1fr); min-height: auto; }
-  .vk-hero__right { display: block; min-height: 260px; }
-  .vk-hero__img-gradient { background: linear-gradient(to bottom, var(--vk-forest-deep) 0%, transparent 22%); }
-  .vk-hero__left { padding: var(--vk-s-32) var(--vk-s-6) var(--vk-s-16); min-height: 100svh; }
+  .vk-hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); }
+  .vk-hero__right { display: block; }
+  .vk-hero__left { padding: var(--vk-s-20) var(--vk-s-5) var(--vk-s-10); }
+  .vk-hero__title { font-size: clamp(2rem, 9vw, 3.5rem); }
+  .vk-hero__tagline { font-size: var(--vk-t-sm); margin-bottom: var(--vk-s-6); }
+  .vk-hero__eyebrow { font-size: 0.6rem; margin-bottom: var(--vk-s-4); }
+  .vk-hero__year-bg { font-size: clamp(3rem, 9vw, 6rem); }
 
   .vk-stats__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
