@@ -3,9 +3,9 @@ import { Nav } from "@/components/pizza/nav";
 import { Footer } from "@/components/pizza/footer";
 
 export const metadata: Metadata = {
-  title: "Rólunk — Vörös Kemence",
+  title: "Rólunk — Pinocchio Pizza & Pasta",
   description:
-    "Ismerd meg a Vörös Kemence történetét, értékeinket és a szenvedélyes csapatot, akik minden nap a legjobb pizzát készítik Budapesten.",
+    "Ismerd meg a Pinocchio Pizza & Pasta történetét, értékeinket és a szenvedélyes csapatot, akik minden nap a legjobb pizzát készítik Budapesten.",
 };
 
 export default function RolunkPage() {
@@ -93,7 +93,7 @@ export default function RolunkPage() {
               <p className="vk-value__num">03</p>
               <h3 className="vk-value__title">Közösség</h3>
               <p className="vk-value__body">
-                Büszkék vagyunk arra, hogy a Vörös Kemence valódi találkozóhely
+                Büszkék vagyunk arra, hogy a Pinocchio Pizza & Pasta valódi találkozóhely
                 lett. Vendégeink visszajárnak — és minden alkalommal igyekszünk
                 felülmúlni magunkat.
               </p>
@@ -111,7 +111,7 @@ export default function RolunkPage() {
               {
                 name: "Kovács Péter",
                 role: "Alapító & Vezérséf",
-                bio: "Nápoly utcáin tanulta a pizzakészítés művészetét. 15 éves tapasztalatával a Vörös Kemence lelke és motorja — reggeltől estig a kemence mellett áll.",
+                bio: "Nápoly utcáin tanulta a pizzakészítés művészetét. 15 éves tapasztalatával a Pinocchio Pizza & Pasta lelke és motorja — reggeltől estig a kemence mellett áll.",
                 img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&auto=format&fit=crop&q=80",
               },
               {

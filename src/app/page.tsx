@@ -39,7 +39,7 @@ export default function HomePage() {
             Autentikus Olasz Pizza · Budapest
           </p>
           <h1 className="vk-hero__title vk-au vk-au-2">
-            Vörös<br /><em>Kemence</em>
+            Pinocchio<br /><em>Pizza & Pasta</em>
           </h1>
           <p className="vk-hero__tagline vk-au vk-au-3">
             Hagyomány, tűz és ízek — 2009 óta.
@@ -92,7 +92,7 @@ export default function HomePage() {
       </section>
 
       {/* ── STATS ────────────────────────────────────────────── */}
-      <div className="vk-stats" role="complementary" aria-label="A Vörös Kemence számokban">
+      <div className="vk-stats" role="complementary" aria-label="A Pinocchio Pizza & Pasta számokban">
         <div className="vk-stats__grid">
           {[
             { num: "2009",  label: "Alapítás éve" },
@@ -122,7 +122,7 @@ export default function HomePage() {
             <div className="vk-story-cols__aside">
               <img
                 src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&auto=format&fit=crop&q=80"
-                alt="A Vörös Kemence belső tere — meleg, hangulatos étterem"
+                alt="A Pinocchio Pizza & Pasta belső tere — meleg, hangulatos étterem"
                 className="vk-story-cols__img"
                 loading="lazy"
                 width={700}
@@ -133,7 +133,7 @@ export default function HomePage() {
               <p className="vk-eyebrow">A mi históriánk</p>
               <h2 className="vk-story-cols__heading">Egy kemence,<br />ezer történet</h2>
               <p className="vk-story-cols__p">
-                A Vörös Kemence 2009 óta süti pizzáit ugyanolyan szenvedéllyel,
+                A Pinocchio Pizza & Pasta 2009 óta süti pizzáit ugyanolyan szenvedéllyel,
                 mint az alapítás első napján. Nápolyi tészta, helyi alapanyagok,
                 és egy fából tüzelt kemence — ez a mi titkunk.
               </p>
@@ -187,7 +187,7 @@ export default function HomePage() {
           <a href="tel:+3612345678" className="vk-cta__phone">+36 1 234 5678</a>
           <div className="vk-cta__actions">
             <a href="tel:+3612345678" className="vk-btn vk-btn--primary">Telefonos foglalás</a>
-            <a href="mailto:info@voroskemence.hu" className="vk-btn vk-btn--outline">E-mail küldése</a>
+            <a href="mailto:info@pinocchiopizza.hu" className="vk-btn vk-btn--outline">E-mail küldése</a>
           </div>
         </div>
       </section>

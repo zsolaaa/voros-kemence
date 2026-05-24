@@ -17,7 +17,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Vörös Kemence — Autentikus Olasz Pizza",
+  title: "Pinocchio Pizza & Pasta — Autentikus Olasz Pizza",
   description:
     "Helyi pizzázó Budapesten, ahol minden pizza kézzel készül, fából tüzelt kemencében sütve. Foglaljon asztalt még ma!",
 };

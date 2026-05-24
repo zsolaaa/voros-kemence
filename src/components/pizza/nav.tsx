@@ -51,7 +51,7 @@ export function Nav() {
           </div>
 
           <Link href="/" className="vk-nav__wordmark" onClick={() => setOpen(false)}>
-            Vörös Kemence
+            Pinocchio Pizza & Pasta
           </Link>
 
           <div className="vk-nav__group vk-nav__group--right">

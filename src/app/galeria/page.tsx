@@ -3,9 +3,9 @@ import { Nav } from "@/components/pizza/nav";
 import { Footer } from "@/components/pizza/footer";
 
 export const metadata: Metadata = {
-  title: "Galéria — Vörös Kemence",
+  title: "Galéria — Pinocchio Pizza & Pasta",
   description:
-    "Képek a Vörös Kemence pizzáiról, belső teréről és a kemence mögötti szenvedélyes munkáról.",
+    "Képek a Pinocchio Pizza & Pasta pizzáiról, belső teréről és a kemence mögötti szenvedélyes munkáról.",
 };
 
 const photos = [
