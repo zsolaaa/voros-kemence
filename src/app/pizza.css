@@ -989,9 +989,10 @@ html, body { overflow-x: clip; }
   .vk-nav__wordmark { text-align: left; }
   .vk-nav__toggle { display: flex; }
 
-  .vk-hero { grid-template-columns: minmax(0, 1fr); }
-  .vk-hero__right { display: none; }
-  .vk-hero__left { padding: var(--vk-s-32) var(--vk-s-6) var(--vk-s-16); }
+  .vk-hero { grid-template-columns: minmax(0, 1fr); min-height: auto; }
+  .vk-hero__right { display: block; min-height: 260px; }
+  .vk-hero__img-gradient { background: linear-gradient(to bottom, var(--vk-forest-deep) 0%, transparent 22%); }
+  .vk-hero__left { padding: var(--vk-s-32) var(--vk-s-6) var(--vk-s-16); min-height: 100svh; }
 
   .vk-stats__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
