@@ -34,15 +34,15 @@ export default function HomePage() {
       {/* ── HERO (split screen) ──────────────────────────────── */}
       <section className="vk-hero" aria-label="Főoldal hős szekció">
         <div className="vk-hero__left">
-          <div className="vk-hero__year-bg" aria-hidden="true">2009</div>
+          <div className="vk-hero__year-bg" aria-hidden="true">2026</div>
           <p className="vk-hero__eyebrow vk-au vk-au-1">
-            Autentikus Olasz Pizza · Budapest
+            Autentikus Olasz Pizza · Baja
           </p>
           <h1 className="vk-hero__title vk-au vk-au-2">
             Pinocchio<br /><em>Pizza & Pasta</em>
           </h1>
           <p className="vk-hero__tagline vk-au vk-au-3">
-            Hagyomány, tűz és ízek — 2009 óta.
+            Hagyomány, tűz és ízek — 2026 óta.
           </p>
           <div className="vk-hero__actions vk-au vk-au-4">
             <Link href="#menu" className="vk-btn vk-btn--primary">Étlapunk</Link>
@@ -95,7 +95,7 @@ export default function HomePage() {
       <div className="vk-stats" role="complementary" aria-label="A Pinocchio Pizza & Pasta számokban">
         <div className="vk-stats__grid">
           {[
-            { num: "2009",  label: "Alapítás éve" },
+            { num: "2026",  label: "Alapítás éve" },
             { num: "450°C", label: "Kemence hőmérséklete" },
             { num: "90s",   label: "Sütési idő" },
             { num: "100%",  label: "Kézzel nyújtott tészta" },
@@ -133,12 +133,12 @@ export default function HomePage() {
               <p className="vk-eyebrow">A mi históriánk</p>
               <h2 className="vk-story-cols__heading">Egy kemence,<br />ezer történet</h2>
               <p className="vk-story-cols__p">
-                A Pinocchio Pizza & Pasta 2009 óta süti pizzáit ugyanolyan szenvedéllyel,
+                A Pinocchio Pizza & Pasta 2026 óta süti pizzáit ugyanolyan szenvedéllyel,
                 mint az alapítás első napján. Nápolyi tészta, helyi alapanyagok,
                 és egy fából tüzelt kemence — ez a mi titkunk.
               </p>
               <p className="vk-story-cols__p">
-                Étteremünk Budapest szívében várja vendégeit, ahol a meleg fények
+                Étteremünk Baja szívében várja vendégeit, ahol a meleg fények
                 és az autentikus ízek egy délolasz kisvendéglő hangulatát idézik.
                 Minden egyes pizzát kézzel nyújtunk, és pontosan 90 másodpercig
                 sütjük a 450°C-os kemencében.
@@ -165,7 +165,7 @@ export default function HomePage() {
           <div className="vk-infostrip__sep" aria-hidden="true" />
           <div className="vk-infostrip__item">
             <span className="vk-infostrip__label">Cím&nbsp;</span>
-            <span className="vk-infostrip__value">1052 Budapest, Váci utca 42.</span>
+            <span className="vk-infostrip__value">1052 Baja, Váci utca 42.</span>
           </div>
           <div className="vk-infostrip__sep" aria-hidden="true" />
           <div className="vk-infostrip__item">

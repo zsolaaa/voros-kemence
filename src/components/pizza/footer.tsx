@@ -10,11 +10,11 @@ export function Footer() {
             <p className="vk-footer__tagline">
               Autentikus olasz pizza és pasta, fából tüzelt kemencéből sütve.
               Minden nap friss alapanyagok, szeretettel és szenvedéllyel készítve
-              Budapest szívében.
+              Baja szívében.
             </p>
           </div>
           <address className="vk-footer__contact">
-            <p className="vk-footer__contact-line">1052 Budapest, Váci utca 42.</p>
+            <p className="vk-footer__contact-line">1052 Baja, Váci utca 42.</p>
             <p className="vk-footer__contact-line">
               <a href="tel:+3612345678">+36 1 234 5678</a>
             </p>

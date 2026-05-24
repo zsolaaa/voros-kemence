@@ -19,7 +19,7 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Pinocchio Pizza & Pasta — Autentikus Olasz Pizza",
   description:
-    "Helyi pizzázó Budapesten, ahol minden pizza kézzel készül, fából tüzelt kemencében sütve. Foglaljon asztalt még ma!",
+    "Helyi pizzázó Baján, ahol minden pizza kézzel készül, fából tüzelt kemencében sütve. Foglaljon asztalt még ma!",
 };
 
 export default function RootLayout({

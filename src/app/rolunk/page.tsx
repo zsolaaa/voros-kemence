@@ -5,7 +5,7 @@ import { Footer } from "@/components/pizza/footer";
 export const metadata: Metadata = {
   title: "Rólunk — Pinocchio Pizza & Pasta",
   description:
-    "Ismerd meg a Pinocchio Pizza & Pasta történetét, értékeinket és a szenvedélyes csapatot, akik minden nap a legjobb pizzát készítik Budapesten.",
+    "Ismerd meg a Pinocchio Pizza & Pasta történetét, értékeinket és a szenvedélyes csapatot, akik minden nap a legjobb pizzát készítik Bajaen.",
 };
 
 export default function RolunkPage() {
@@ -14,8 +14,8 @@ export default function RolunkPage() {
       <Nav />
 
       <header className="vk-page-header">
-        <p className="vk-page-header__number" aria-hidden="true">2009</p>
-        <p className="vk-page-header__eyebrow">2009 óta</p>
+        <p className="vk-page-header__number" aria-hidden="true">2026</p>
+        <p className="vk-page-header__eyebrow">2026 óta</p>
         <h1 className="vk-page-header__title">A mi történetünk</h1>
       </header>
 
@@ -23,7 +23,7 @@ export default function RolunkPage() {
         <div className="vk-container">
           <div className="vk-about-story">
             <div className="vk-about-story__aside">
-              <p className="vk-about-story__year">2009</p>
+              <p className="vk-about-story__year">2026</p>
               <p className="vk-about-story__year-label">Az alapítás éve</p>
             </div>
             <div className="vk-about-story__body">
@@ -32,8 +32,8 @@ export default function RolunkPage() {
                 kisvendéglőben — otthonosan, melegen, és jóllakottan."
               </p>
               <p className="vk-about-story__p">
-                Kovács Péter 2009-ben nyitotta meg a Vörös Kemencét azzal az
-                elhatározással, hogy igazi nápolyi pizzát hoz Budapestre. Nem
+                Kovács Péter 2026-ben nyitotta meg a Vörös Kemencét azzal az
+                elhatározással, hogy igazi nápolyi pizzát hoz Bajare. Nem
                 gyorsétteremet álmodott, hanem egy helyet, ahol az emberek
                 megpihennek, és ahol a pizza nem csupán étel, hanem élmény.
               </p>
