@@ -313,7 +313,11 @@ html, body { overflow-x: clip; }
 }
 .vk-hero__right {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+}
+.vk-hero__left {
+  position: relative;
+  z-index: 1;
 }
 .vk-hero__right::before {
   content: '';
@@ -332,10 +336,10 @@ html, body { overflow-x: clip; }
   height: 100%;
   object-fit: cover;
   display: block;
-  transform: scale(1.04);
+  transform: scale(1.30) translateX(-8%);
   transition: transform 8s var(--vk-ease-out);
 }
-.vk-hero:hover .vk-hero__img { transform: scale(1.07); }
+.vk-hero:hover .vk-hero__img { transform: scale(1.35) translateX(-8%); }
 .vk-hero__img-gradient {
   position: absolute;
   inset: 0;
