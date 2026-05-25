@@ -4,24 +4,24 @@ import { Footer } from "@/components/pizza/footer";
 
 const pizzas = [
   {
-    name: "Margherita",
-    desc: "Házi paradicsomalap, fior di latte mozzarella, friss bazsalikom, extra szűz olívaolaj",
-    price: "2 990 Ft",
-    tag: "Klasszikus",
+    name: "Pinocchio",
+    desc: "Paradicsomszósz, mozzarella, rukkola, pármai sonka, parmezán forgács",
+    price: "3 590 Ft",
+    tag: "Házi kedvenc",
     img: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop&q=80",
   },
   {
-    name: "Diavola",
-    desc: "Pikáns szalámi, buffalo mozzarella, cseresznyepaprika, chili olaj, friss oregánó",
-    price: "3 490 Ft",
-    tag: "Csípős",
+    name: "Tartufo e N'duja",
+    desc: "Tejszínes szarvasgomba krém, mozzarella, gomba, olasz csípős kolbászkrém (N'duja)",
+    price: "3 890 Ft",
+    tag: "Prémium",
     img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=80",
   },
   {
-    name: "Quattro Stagioni",
-    desc: "Sonka, articsóka, gomba, olajbogyó, mozzarella — négy évszak, egy pizza",
-    price: "3 890 Ft",
-    tag: "Prémium",
+    name: "Margherita",
+    desc: "Paradicsomszósz, mozzarella",
+    price: "2 690 Ft",
+    tag: "Klasszikus",
     img: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&auto=format&fit=crop&q=80",
   },
 ];
@@ -66,7 +66,7 @@ export default function HomePage() {
         <div className="vk-container">
           <p className="vk-eyebrow">Étlapunkból</p>
           <h2 className="vk-heading">Kedvenceink</h2>
-          <div className="vk-menu-rows">
+          <div className="vk-menu-rows" style={{ marginBottom: "var(--vk-s-10)" }}>
             {pizzas.map((pizza, i) => (
               <article key={pizza.name} className="vk-menu-row">
                 <span className="vk-menu-row__num" aria-hidden="true">0{i + 1}</span>
@@ -87,6 +87,11 @@ export default function HomePage() {
                 </div>
               </article>
             ))}
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <Link href="/etlap" className="vk-btn vk-btn--outline-dark">
+              Teljes étlap megtekintése
+            </Link>
           </div>
         </div>
       </section>

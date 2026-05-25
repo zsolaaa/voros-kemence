@@ -6,10 +6,11 @@ import { useEffect, useState } from "react";
 
 const linksLeft = [
   { href: "/", label: "Főoldal" },
-  { href: "/rolunk", label: "Rólunk" },
+  { href: "/etlap", label: "Étlap" },
 ];
 const linksRight = [
   { href: "/galeria", label: "Galéria" },
+  { href: "/rolunk", label: "Rólunk" },
 ];
 const allLinks = [...linksLeft, ...linksRight];
 
