@@ -35,7 +35,7 @@ export default function HomePage() {
       <section className="vk-hero" aria-label="Főoldal hős szekció">
         <div className="vk-hero__left">
 <p className="vk-hero__eyebrow vk-au vk-au-1">
-            Autentikus Olasz Pizza · Baja
+            Baja szívében · Olasz lélekkel
           </p>
           <h1 className="vk-hero__title vk-au vk-au-2">
             Pinocchio<br /><em>Pizza & Pasta</em>
