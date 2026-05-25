@@ -1148,7 +1148,7 @@ html, body { overflow-x: clip; }
   .vk-hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); }
   .vk-hero__right { display: block; overflow: hidden; }
   .vk-hero__left { padding: var(--vk-s-20) var(--vk-s-5) var(--vk-s-10); }
-  .vk-hero__img { transform: scale(1.0) translateX(0); object-position: -10% center; }
+  .vk-hero__img { transform: scale(1.0) translateX(0); }
   .vk-hero:hover .vk-hero__img { transform: scale(1.0) translateX(0); }
   .vk-hero__title { font-size: clamp(2rem, 9vw, 3.5rem); }
   .vk-hero__tagline { font-size: var(--vk-t-sm); margin-bottom: var(--vk-s-6); }
