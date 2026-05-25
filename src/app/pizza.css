@@ -1141,9 +1141,12 @@ html, body { overflow-x: clip; }
 /* ── Responsive ─────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .vk-nav__group { display: none; }
+  .vk-nav__group--right { display: flex; }
+  .vk-nav__group--right .vk-nav__link,
+  .vk-nav__group--right .vk-nav__cta { display: none; }
+  .vk-nav__toggle { display: flex; }
   .vk-nav__inner { grid-template-columns: 1fr auto; }
   .vk-nav__wordmark { text-align: left; }
-  .vk-nav__toggle { display: flex; }
 
   .vk-hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); }
   .vk-hero__right { display: block; overflow: hidden; }
