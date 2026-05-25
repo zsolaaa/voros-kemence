@@ -41,7 +41,7 @@ export default function HomePage() {
             Pinocchio<br /><em>Pizza & Pasta</em>
           </h1>
           <p className="vk-hero__tagline vk-au vk-au-3">
-            Hagyomány, tűz és ízek — 2026 óta.
+            Egy szelet elég — de soha nem leszel meg eggyel.
           </p>
           <div className="vk-hero__actions vk-au vk-au-4">
             <a href="tel:+36307556846" className="vk-btn vk-btn--primary">Rendelj most</a>
