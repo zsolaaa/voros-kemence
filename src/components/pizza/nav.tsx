@@ -66,7 +66,7 @@ export function Nav() {
                 {label}
               </Link>
             ))}
-            <Link href="tel:+3612345678" className="vk-nav__cta">
+            <Link href="tel:+36307556846" className="vk-nav__cta">
               Foglalás
             </Link>
             <button
@@ -125,7 +125,7 @@ export function Nav() {
           </Link>
         ))}
 
-        <Link href="tel:+3612345678" className="vk-btn vk-btn--primary" onClick={() => setOpen(false)}>
+        <Link href="tel:+36307556846" className="vk-btn vk-btn--primary" onClick={() => setOpen(false)}>
           Foglalás
         </Link>
       </div>

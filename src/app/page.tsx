@@ -46,7 +46,7 @@ export default function HomePage() {
           </p>
           <div className="vk-hero__actions vk-au vk-au-4">
             <Link href="#menu" className="vk-btn vk-btn--primary">Étlapunk</Link>
-            <Link href="tel:+3612345678" className="vk-btn vk-btn--outline">Asztalt foglalok</Link>
+            <Link href="tel:+36307556846" className="vk-btn vk-btn--outline">Asztalt foglalok</Link>
           </div>
         </div>
 
@@ -170,12 +170,12 @@ export default function HomePage() {
           <div className="vk-infostrip__sep" aria-hidden="true" />
           <div className="vk-infostrip__item">
             <span className="vk-infostrip__label">Cím&nbsp;</span>
-            <span className="vk-infostrip__value">1052 Baja, Váci utca 42.</span>
+            <span className="vk-infostrip__value">6500 Baja, Tóth Kálmán tér 5.</span>
           </div>
           <div className="vk-infostrip__sep" aria-hidden="true" />
           <div className="vk-infostrip__item">
             <span className="vk-infostrip__label">Tel&nbsp;</span>
-            <span className="vk-infostrip__value">+36 1 234 5678</span>
+            <span className="vk-infostrip__value">+36 30 755 6846</span>
           </div>
         </div>
       </div>
@@ -189,9 +189,9 @@ export default function HomePage() {
             Különleges alkalom, születésnap vagy csak egy jó vacsora?
             Keressen minket bátran — örömmel helyet foglalunk az Ön számára.
           </p>
-          <a href="tel:+3612345678" className="vk-cta__phone">+36 1 234 5678</a>
+          <a href="tel:+36307556846" className="vk-cta__phone">+36 30 755 6846</a>
           <div className="vk-cta__actions">
-            <a href="tel:+3612345678" className="vk-btn vk-btn--primary">Telefonos foglalás</a>
+            <a href="tel:+36307556846" className="vk-btn vk-btn--primary">Telefonos foglalás</a>
             <a href="mailto:info@pinocchiopizza.hu" className="vk-btn vk-btn--outline">E-mail küldése</a>
           </div>
         </div>

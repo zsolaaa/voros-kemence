@@ -14,9 +14,9 @@ export function Footer() {
             </p>
           </div>
           <address className="vk-footer__contact">
-            <p className="vk-footer__contact-line">1052 Baja, Váci utca 42.</p>
+            <p className="vk-footer__contact-line">6500 Baja, Tóth Kálmán tér 5.</p>
             <p className="vk-footer__contact-line">
-              <a href="tel:+3612345678">+36 1 234 5678</a>
+              <a href="tel:+36307556846">+36 30 755 6846</a>
             </p>
             <p className="vk-footer__contact-line">
               <a href="mailto:info@pinocchiopizza.hu">info@pinocchiopizza.hu</a>
@@ -30,7 +30,7 @@ export function Footer() {
             <Link href="/" className="vk-footer__nav-link">Főoldal</Link>
             <Link href="/rolunk" className="vk-footer__nav-link">Rólunk</Link>
             <Link href="/galeria" className="vk-footer__nav-link">Galéria</Link>
-            <Link href="tel:+3612345678" className="vk-footer__nav-link">Foglalás</Link>
+            <Link href="tel:+36307556846" className="vk-footer__nav-link">Foglalás</Link>
           </nav>
           <p className="vk-footer__copy">© 2024 Pinocchio Pizza & Pasta. Minden jog fenntartva.</p>
         </div>
