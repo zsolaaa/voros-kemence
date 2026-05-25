@@ -50,7 +50,7 @@ export default function HomePage() {
 
         <div className="vk-hero__right" role="img" aria-label="Frissen sült pizza a kemencéből">
           <img
-            src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&auto=format&fit=crop&q=80"
+            src="/pizza.png"
             alt=""
             className="vk-hero__img"
             aria-hidden="true"
