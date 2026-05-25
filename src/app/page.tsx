@@ -45,8 +45,7 @@ export default function HomePage() {
             Hagyomány, tűz és ízek — 2026 óta.
           </p>
           <div className="vk-hero__actions vk-au vk-au-4">
-            <Link href="#menu" className="vk-btn vk-btn--primary">Étlapunk</Link>
-            <Link href="tel:+36307556846" className="vk-btn vk-btn--outline">Asztalt foglalok</Link>
+            <a href="tel:+36307556846" className="vk-btn vk-btn--primary">Rendelj most</a>
           </div>
         </div>
 
