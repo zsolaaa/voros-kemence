@@ -215,8 +215,8 @@ html, body { overflow-x: clip; }
 }
 .vk-btn:focus-visible { outline: 2px solid var(--vk-forest); outline-offset: 3px; }
 
-.vk-btn--primary { background: var(--vk-forest); color: var(--vk-white); border-color: var(--vk-forest); }
-.vk-btn--primary:hover { background: var(--vk-forest-deep); border-color: var(--vk-forest-deep); transform: translateY(-1px); }
+.vk-btn--primary { background: var(--vk-gold); color: var(--vk-ink); border-color: var(--vk-gold); }
+.vk-btn--primary:hover { background: oklch(0.660 0.116 78); border-color: oklch(0.660 0.116 78); transform: translateY(-1px); }
 .vk-btn--primary:active { transform: none; }
 
 .vk-btn--outline { background: transparent; color: var(--vk-white); border-color: oklch(1 0 0 / 0.35); }
