@@ -34,8 +34,7 @@ export default function HomePage() {
       {/* ── HERO (split screen) ──────────────────────────────── */}
       <section className="vk-hero" aria-label="Főoldal hős szekció">
         <div className="vk-hero__left">
-          <div className="vk-hero__year-bg" aria-hidden="true">2026</div>
-          <p className="vk-hero__eyebrow vk-au vk-au-1">
+<p className="vk-hero__eyebrow vk-au vk-au-1">
             Autentikus Olasz Pizza · Baja
           </p>
           <h1 className="vk-hero__title vk-au vk-au-2">
